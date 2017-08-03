@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+html, body{
+    height: 100%;
+    margin: 0px;
+    font-size: 17px;
+    font-family:sans-serif;
+    font-weight:400; 
+    line-height:1.8em;
+    color: #666;
+}
+.pmg1,.pmg2,.pmg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pmg1{
+        background-image: url('Images/pexels-photo-520663.jpeg');
+        min-height: 100%;
+} 
+    .pmg2{
+        background-image: url('Images/thumb-1920-685149.jpg');
+        min-height: 400px;
+} 
+    .pmg3{
+    background-image: url('Images/pexels-photo-487498.jpeg');
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+background-color: #f4f4f4;
+color: #666;
+}
+.section-dark{
+background-color: #282e34;
+color: #ddd;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #800;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.ptext .border{
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+.ptext .border.trans{
+    background-color: transparent;
+}
+@media(max-width:568px){
+    .pmg1,.pmg2,.pmg3{
+background-attachment: scroll;
+
+    }
+}
+   
+        </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="" content=""/>
+    <title>Parallax Effect</title>
+<link type="text/css" href="CSS/style.css"/>
+    </head>
+    <body>    
+        <div class="pmg1">
+            <div class="ptext">
+            <span class="border">
+Parallax 
+            </span>     
+            </div>
+        </div>
+   <section class="section section-light">
+   <h1>Section One </h1> 
+            <p> The main difference between object-oriented analysis and other forms of analysis is that in object-oriented approach, 
+                requirements are organized around objects, which integrate both data and functions. They are modelled after real-world 
+                objects that the system interacts with. In traditional analysis methodologies, the two aspects
+                 - functions and data - are considered separately.  </p>
+        </section>
+          <div class="pmg2">
+            <div class="ptext">
+            <span class="border trans">
+Images
+            </span>
+            </div>   
+        </div>
+         <section class="section section-dark"> 
+        <h1>Section Two </h1>
+      <p> The main difference between object-oriented analysis and other forms of analysis is that in object-oriented approach, 
+                requirements are organized around objects, which integrate both data and functions. They are modelled after real-world 
+                objects that the system interacts with. In traditional analysis methodologies, the two aspects
+                 - functions and data - are considered separately.  </p>  
+        </section>
+    <div class="pmg3">
+            <div class="ptext">
+            <span class="border trans">
+Image Three
+            </span>          
+            </div>
+        </div>
+         <section class="section section-dark">        
+        <h1>Section Three</h1>
+           <p> The main difference between object-oriented analysis and other forms of analysis is that in object-oriented approach, 
+                requirements are organized around objects, which integrate both data and functions. They are modelled after real-world 
+                objects that the system interacts with. In traditional analysis methodologies, the two aspects
+                 - functions and data - are considered separately.  </p>
+        </section>
+         <div class="pmg1">
+            <div class="ptext">
+            <span class="border">
+Parallax
+            </span>
+        </div>
+    
+    </body>
+</html>
